@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // оператор Spread
+        const button = {
+            width: 200,
+            text: 'Buy'
+        }
+
+        const redButton = {
+            ...button,
+            color: 'red',
+        }
+
+        const hiButton = {
+            ...redButton,
+            hi: 100,
+            hiw: 200,
+        }
+
+        console.table(hiButton)
+    </script>
+</body>
+</html>
